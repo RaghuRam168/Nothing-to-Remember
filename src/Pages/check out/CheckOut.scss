@@ -1,0 +1,37 @@
+.check-out{
+    display: flex;
+    .left-container{
+        width: 20%;
+    }
+    .right-container{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        .checkout-product{
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 5px;
+            box-shadow: 17px 17px 20px -20px rgba(0,0,0,0.75);
+            .pending-paid{
+                display: flex;
+                flex-direction: column;
+                button{
+                    font-size: 1.1rem;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: 600;
+                    padding: 10px 20px;
+                    color: #fff;
+                    border: none;
+                    outline: none;
+                    margin: 5px;
+                }
+            }
+        }
+
+    }
+}

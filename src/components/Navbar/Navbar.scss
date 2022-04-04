@@ -1,0 +1,39 @@
+.navbar {
+  height: 40px;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
+  border-bottom: 1px solid #eaedf0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .logo {
+    color: #2fa4ff;
+    float: left;
+  }
+  .hover {
+    position: relative;
+    .active{
+      color: #000;
+    }
+  }
+  .hover p {
+    display: none;
+    position: absolute;
+    top: 15px;
+  }
+  .hover:hover p {
+    font-size: 0.8rem;
+    color: #cdd2d6;
+    display: block;
+    width: max-content;
+  }
+  .nav-icons {
+    font-size: 1.5rem;
+    margin: 20px;
+    color: #2fa4ff;
+    cursor: pointer;
+  }
+}

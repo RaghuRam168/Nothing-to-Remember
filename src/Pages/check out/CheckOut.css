@@ -1,0 +1,64 @@
+.check-out {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.check-out .left-container {
+  width: 20%;
+}
+
+.check-out .right-container {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.check-out .right-container .checkout-product {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+  -webkit-box-shadow: 17px 17px 20px -20px rgba(0, 0, 0, 0.75);
+          box-shadow: 17px 17px 20px -20px rgba(0, 0, 0, 0.75);
+}
+
+.check-out .right-container .checkout-product .pending-paid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.check-out .right-container .checkout-product .pending-paid button {
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  outline: none;
+  margin: 5px;
+}
+/*# sourceMappingURL=CheckOut.css.map */

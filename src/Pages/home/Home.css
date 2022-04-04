@@ -1,0 +1,153 @@
+.container-1 {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #000;
+}
+
+.container-1 .left {
+  color: #fff;
+  padding-left: 10%;
+  width: 50%;
+}
+
+.container-1 .left p {
+  font-size: 5rem;
+  font-weight: 900;
+  font-family: 'Frank Ruhl Libre', serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container-1 .right {
+  width: 50%;
+  overflow: hidden;
+}
+
+.container-1 .right img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 70vh;
+}
+
+.container-2 .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+}
+
+.container-2 .left img {
+  width: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  cursor: pointer;
+}
+
+.container-2 .right {
+  width: 50%;
+  color: #fff;
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.container-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+}
+
+.container-3 .left {
+  margin: 0%;
+  padding: 0%;
+  width: 50%;
+  color: #fff;
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.container-3 .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+}
+
+.container-3 .right img {
+  width: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  cursor: pointer;
+}
+
+.light {
+  width: 50%;
+  color: #868585;
+  font-size: 2rem;
+  margin: 0px;
+  padding: 0px;
+}
+
+.title {
+  font-size: 5rem;
+  font-weight: 900;
+  font-family: 'Frank Ruhl Libre', serif;
+  margin: 0px;
+  padding: 0px;
+}
+/*# sourceMappingURL=home.css.map */

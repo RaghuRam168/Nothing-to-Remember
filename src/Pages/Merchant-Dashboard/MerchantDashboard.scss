@@ -1,0 +1,23 @@
+.merchant-dashboard{
+    display: flex;
+    .left-container{
+      width: 20%;
+    }
+    .right-container{
+       flex-direction: column;
+       width:100%;
+       .widget-container{
+            display: flex;
+            justify-content:space-between;
+            width: 90%;
+       }
+       .card-container{
+        display: flex;
+        justify-content:space-between;
+        width: 90%;
+        margin: 20px auto; 
+    }
+    }
+}
+
+

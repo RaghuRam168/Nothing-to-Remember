@@ -1,0 +1,110 @@
+.container-1{
+    height: 100vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #000;
+    .left{
+        color: #fff;  
+        padding-left:10%;
+        width: 50%;
+        p{
+            font-size: 5rem;
+            font-weight: 900;
+            font-family: 'Frank Ruhl Libre', serif;
+            margin: 0px;
+            padding: 0px;
+        }
+    }
+    .right{
+        width: 50%;
+        img{
+           object-fit:cover;
+    }
+    overflow: hidden;
+}
+   
+}
+
+
+.container-2{
+    display: flex;
+    justify-content:space-around;
+    height: 70vh;
+    .left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        img{
+            width: 50%;
+            object-fit: contain;
+            cursor: pointer;
+        }
+    }
+    .right{
+        width: 50%;
+        color: #fff;
+        background-color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        }
+}
+
+.container-3{
+    display: flex;
+    height:100vh;
+    
+    .left{
+       margin: 0%;
+       padding: 0%;
+        width: 50%;
+        color: #fff;
+        background-color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius:10px ;
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        img{
+            width: 50%;
+            object-fit: contain;
+            cursor: pointer;
+        }
+    }
+}
+
+// .container-4{
+//     display: flex;
+//     height:100vh;
+
+// }
+
+
+
+
+.light{
+    width: 50%;
+    color: rgb(134, 133, 133);
+    font-size: 2rem;
+    margin: 0px;
+    padding: 0px;
+}
+.title{
+    font-size: 5rem;
+    font-weight: 900;
+    font-family: 'Frank Ruhl Libre', serif;
+    margin: 0px;
+    padding: 0px;
+}

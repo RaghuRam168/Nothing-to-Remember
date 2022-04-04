@@ -1,0 +1,55 @@
+.navbar {
+  height: 40px;
+  padding: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
+  border-bottom: 1px solid #eaedf0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .logo {
+  color: #2fa4ff;
+  float: left;
+}
+
+.navbar .hover {
+  position: relative;
+}
+
+.navbar .hover .active {
+  color: #000;
+}
+
+.navbar .hover p {
+  display: none;
+  position: absolute;
+  top: 15px;
+}
+
+.navbar .hover:hover p {
+  font-size: 0.8rem;
+  color: #cdd2d6;
+  display: block;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.navbar .nav-icons {
+  font-size: 1.5rem;
+  margin: 20px;
+  color: #2fa4ff;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Navbar.css.map */
